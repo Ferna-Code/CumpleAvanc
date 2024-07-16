@@ -64,6 +64,11 @@ p {
     border-radius: 50px;
 }
 
+.controls{
+    position: absolute;
+    top: 1%;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 3em;
@@ -106,6 +111,6 @@ p {
     .imagen {
         width: 50%;
         height: 70px;
-        top: 70%;
+        top: 85%;
     }
 }
