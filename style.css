@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F5F7;
+    font-family: "Impact, Charcoal, sans-serif";
+    font-size: 5em;
+    font-weight: 800;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+h2 {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F6F7;
+    font-family: "Impact, Charcoal, sans-serif";
+    font-size: 5em;
+    font-weight: 800;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+p {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F4F6F7;
+    font-family: "Impact, Charcoal, sans-serif";
+    font-size: 22px;
+    font-weight: 800;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+.imagen {
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(36, 240, 8, .1);
+    background-image: url('asset/img/logo-removebg-preview.png'); /* Verifica que la ruta sea correcta */
+    background-size: cover; /* Asegura que la imagen cubra el div */
+    background-position: center; /* Centra la imagen en el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 30%; /* Define un ancho para el div */
+    height: 100px; /* Define una altura para el div */
+    border: 1px solid lightgreen;
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+        top: 35%;
+    }
+
+    h2 {
+        font-size: 2.5em;
+        top: 50%;
+    }
+
+    p {
+        font-size: 18px;
+        top: 65%;
+    }
+
+    .imagen {
+        width: 40%;
+        height: 80px;
+        top: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5em;
+        top: 30%;
+    }
+
+    h2 {
+        font-size: 2em;
+        top: 45%;
+    }
+
+    p {
+        font-size: 16px;
+        top: 60%;
+    }
+
+    .imagen {
+        width: 50%;
+        height: 70px;
+        top: 70%;
+    }
+}
